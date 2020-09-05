@@ -288,7 +288,7 @@ input:checked + .slider:before {
 	}
 	.stills img{
 		margin: 1px;
-		height: 100%;
+		height:100%;
 	}
 	.about{
 		padding: 200px 0px 0px;
@@ -299,11 +299,13 @@ input:checked + .slider:before {
 		margin: 0px;
 	}
 	.pics img{
-		padding: 1px 0px 0px;
+		padding: 0px;
+		margin: 0px;
 	}
 	.leftcolumn, .middlecolumn, .rightcolumn{
 		width: 100%;
 		padding: 0px;
+		margin: 0px;
 	}
 	.bio{
 		margin: 0px 5%;

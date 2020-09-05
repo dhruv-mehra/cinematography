@@ -265,4 +265,7 @@ h3{
 .close{
 	font-size: 45px;
 }
+.modal{
+	padding: 0px;
+}
 }
