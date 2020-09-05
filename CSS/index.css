@@ -104,7 +104,6 @@ li{
 .stills img{
 	width: 33.33%;
 	margin: 3px;
-	height: auto;
 }
 /*///////////////work///////////////*/
 .works{
@@ -112,7 +111,6 @@ li{
 }
 .work{
 	padding: 15px 0px;
-	height: auto;
 }
 .worktitle{
 	font-size: 15px;
@@ -290,6 +288,7 @@ input:checked + .slider:before {
 	}
 	.stills img{
 		margin: 1px;
+		max-height: 150px;
 	}
 	.about{
 		padding: 200px 0px 0px;
