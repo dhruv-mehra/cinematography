@@ -288,7 +288,7 @@ input:checked + .slider:before {
 	}
 	.stills img{
 		margin: 1px;
-		max-height: 150px;
+		max-height: auto;
 	}
 	.about{
 		padding: 200px 0px 0px;
