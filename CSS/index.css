@@ -112,6 +112,7 @@ li{
 }
 .work{
 	padding: 15px 0px;
+	height: auto;
 }
 .worktitle{
 	font-size: 15px;
