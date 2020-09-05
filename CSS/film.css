@@ -1,0 +1,262 @@
+:root {
+	 --primary-color: #EF8F6C;
+	 --secondary-color: #28313E;
+	 --font-color: #050A0F;
+	 --bg-color: #FAEFED;
+	 --shadow-color: rgba(0, 0, 0, 0.3);
+}
+
+[data-theme="dark"] {
+	--primary-color: #7695BE;
+	--secondary-color: #FAEFED;
+	--font-color: #F3F4F7;
+	--bg-color: #050A0F;
+	--shadow-color: rgba(250, 239, 237, 0.1);
+}
+
+/*///////////////atl///////////////*/
+.atl{
+  padding: 170px 0px 25px;
+}
+h3{
+  font-size: 25px;
+  font-family: vidange-pro, sans-serif;
+	font-style: normal;
+	font-weight: 800;
+  color: var(--primary-color);
+  text-align: center;
+  margin: 0px;
+}
+.atlcreds, .btl{
+  font-size: 12px;
+	font-family: korolev,sans-serif;
+	font-weight: 300;
+	font-style: normal;
+  text-align: center;
+  letter-spacing: 2px;
+}
+.atlcreds p, .btl p{
+  margin: 5px;
+}
+.role{
+  font-style: italic;
+}
+/*///////////////specs///////////////*/
+.atl ol{
+  margin: 15px 0px 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.spacer{
+  font-size: 15px;
+  font-weight: 400;
+  display: inline;
+  color: var(--primary-color);
+}
+.specs li{
+  font-size: 12px;
+	font-family: korolev,sans-serif;
+	font-weight: 200;
+	font-style: normal;
+  letter-spacing: 2px;
+	display: inline;
+	margin: 0px 5px;
+  padding: 0px;
+}
+/*///////////////logline///////////////*/
+.logline{
+  font-size: 12px;
+	font-family: korolev,sans-serif;
+	font-weight: 400;
+	font-style: italic;
+  letter-spacing: 2px;
+  margin: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 10px 20%;
+  color: var(--primary-color);
+}
+/*///////////////buttons///////////////*/
+.buttons, .prevnext{
+  padding: 50px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  font-size: 15px;
+  font-family: vidange-pro, sans-serif;
+	font-style: normal;
+	font-weight: 800;
+  color: var(--primary-color);
+  width: 100%;
+  cursor: pointer;
+}
+.buttons div, .prevnext a{
+  width: 33.33%;
+}
+.back, .prev{
+  text-align: left;
+}
+.projects, .close{
+  text-align: center;
+}
+.forward, .next{
+  text-align: right;
+}
+/*///////////////gallery///////////////*/
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 3px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 3px;
+}
+
+.column img {
+  margin-top: 6px;
+  vertical-align: middle;
+  width: 100%;
+}
+.movie{
+	margin: 0px 0px 30px;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 1200px) {
+  .column {
+    flex: 33.33%;
+    max-width: 33.33%;
+  }
+}
+@media screen and (max-width: 900px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+/*///////////////modal///////////////*/
+
+/* The Modal (background) */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+	padding: 0 1%;
+	overflow: none;
+  background-color: var(--bg-color);
+}
+.lightbox{
+  display: flex;
+  flex-direction: column;
+	justify-content: center;
+}
+/* Modal Content */
+.modal-content{
+  position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+}
+.mySlides img{
+	max-height: 80vh;
+	max-width: 100%;
+}
+/* Prev, Close, Next*/
+.prevnext{
+  font-size: 17px;
+  position: absolute;
+	bottom: 2%;
+	align-items: flex-end;
+	padding: 0 5%;
+}
+.close{
+  font-size: 30px;
+}
+
+/* Hide the slides by default */
+.mySlides {
+  display: none;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s;
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 var(--shadow-color);
+  cursor: pointer;
+}
+
+/*media queries*/
+@media screen and (max-width: 600px) {
+.atl{
+	padding: 225px 5% 15px;
+}
+h3{
+	font-size: 3em;
+}
+.atlcreds p{
+	font-size: 1.25em;
+}
+.atlcreds{
+		padding: 10px 0px;
+}
+.specs li, .spacer{
+	font-size: 0.9em;
+}
+.atl ol{
+  flex-direction: column;
+}
+.spacer{
+	transform: rotate(90deg);
+}
+.row, .column{
+	padding: 0px;
+}
+.column img{
+	margin: 1px 0px 0px;
+}
+.credits{
+	padding: 20px 5%;
+}
+.buttons{
+	padding: 50px 5% 35px;
+	font-size: 1.15em;
+}
+.logline{
+	padding: 0px 0px 10px;
+	font-size:1.15em;
+}
+.btl{
+	font-size: 1em;
+}
+}
