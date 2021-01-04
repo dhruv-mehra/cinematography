@@ -2,7 +2,7 @@
 	 --primary-color: #EF8F6C;
 	 --secondary-color: #28313E;
 	 --font-color: #050A0F;
-	 --bg-color: #FAEFED;
+	 --bg-color: #FFFFFF;
 	 --shadow-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -20,9 +20,9 @@
 }
 h3{
   font-size: 25px;
-  font-family: vidange-pro, sans-serif;
+  font-family: 'Palanquin Dark', sans-serif;
 	font-style: normal;
-	font-weight: 800;
+	font-weight: 700;
   color: var(--primary-color);
   text-align: center;
   margin: 0px;
@@ -86,7 +86,7 @@ h3{
   align-items: center;
   flex-direction: row;
   font-size: 15px;
-  font-family: vidange-pro, sans-serif;
+  font-family: 'Palanquin Dark', sans-serif;
 	font-style: normal;
 	font-weight: 800;
   color: var(--primary-color);
