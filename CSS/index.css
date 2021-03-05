@@ -101,6 +101,7 @@ li{
 }
 .stills img{
 	width: 33.33%;
+	height: 100%;
 	margin: 3px;
 }
 /*///////////////work///////////////*/
@@ -133,26 +134,19 @@ li{
 	flex-direction: row;
 	flex-wrap: wrap;
 	align-items: center;
+	justify-content: center;
 	padding: 170px 0px 0px;
 }
 .pics{
-	width: 73%;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	padding-right: 10px;
-}
-.leftcolumn, .middlecolumn, .rightcolumn{
-	width: 33.33%;
-	padding: 0px 3px;
+	width: 25%;
+	padding: 10px;
 }
 .pics img{
-	padding: 3px 0px 0px 0px;
 	width: 100%;
 }
 .bio{
-	width: 27%;
-	text-align: left;
+	width: 40%;
+	text-align: justify;
 	font-size: 15px;
 	font-weight: 200;
 	letter-spacing: 1px;
@@ -252,17 +246,20 @@ input:checked + .slider:before {
 
 /*Media Queries*/
 @media screen and (max-width: 900px) {
-	.about{
-		flex-direction: column;
-	}
 	.pics{
-		width: 100%;
-		justify-content: center;
-		padding: 0px;
+		width: 40%;
 	}
 	.bio{
 		width: 50%;
-		margin-top: 10px;
+	}
+}
+
+@media screen and (max-width: 800px) {
+	.pics{
+		width: 50%;
+	}
+	.bio{
+		width: 50%;
 	}
 }
 
@@ -290,7 +287,7 @@ input:checked + .slider:before {
 		float: none;
 	}
 	.works{
-		padding: 200px 0px 0px;
+		padding: 250px 0px 0px;
 	}
 	.work{
 		padding: 10px 0px;
@@ -300,23 +297,14 @@ input:checked + .slider:before {
 		height:100%;
 	}
 	.about{
-		padding: 200px 0px 0px;
+		padding: 250px 0px 0px;
 	}
 	.pics{
-		flex-direction: column;
-		margin: 0px;
+		width: 80%;
 	}
-	.pics img{
-		padding: 0px;
-		margin: 0px;
-	}
-	.leftcolumn, .middlecolumn, .rightcolumn{
-		width: 100%;
-		padding: 0px;
-		margin: 0px;
-	}
+
 	.bio{
-		width: 90%;
+		width: 80%;
 		font-size: 1.15em;
 	}
 	footer{
