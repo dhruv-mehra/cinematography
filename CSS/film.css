@@ -67,6 +67,11 @@ h3{
   padding: 0px;
 }
 /*///////////////logline///////////////*/
+
+.credits{
+	padding: 50px 10%;
+}
+
 .logline{
   font-size: 12px;
 	font-family: korolev,sans-serif;
@@ -246,7 +251,7 @@ h3{
 	margin: 1px 0px 0px;
 }
 .credits{
-	padding: 20px 5%;
+	padding: 20px 10%;
 }
 .buttons{
 	padding: 50px 5% 35px;
