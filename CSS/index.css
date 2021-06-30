@@ -102,7 +102,7 @@ li{
 .stills img{
 	width: 33.33%;
 	height: 100%;
-	margin: 3px;
+	margin: 1px;
 }
 /*///////////////work///////////////*/
 .works{
@@ -146,8 +146,8 @@ li{
 }
 .bio{
 	width: 40%;
-	text-align: justify;
-	font-size: 15px;
+	text-align: left;
+	font-size: 14px;
 	font-weight: 200;
 	letter-spacing: 1px;
 	padding: 10px;
