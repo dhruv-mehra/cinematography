@@ -137,33 +137,64 @@ li{
 	justify-content: center;
 	padding: 170px 0px 0px;
 }
+.about p{
+	margin-top: 0px;
+}
 .pics{
 	width: 50%;
-	padding: 10px;
+	padding: 100px 25px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: right;
 }
 .pics img{
-	width: 100%;
+	width: 75%;
+
 }
 .bio{
-	width: 40%;
+	width: 50%;
 	text-align: left;
 	font-size: 14px;
 	font-weight: 200;
 	letter-spacing: 1px;
-	padding: 10px;
+	padding: 25px 200px 25px 25px;
 }
 .bio p{
 	margin-top: 0px;
 }
-.strong, #cv, .contact{
+.strong, #cv{
 	font-weight: 400;
 }
-.contact{
+
+.italic{
+	font-style: italic;
+}
+
+.contact, .gear{
+	margin: 25px 0px 25px 0px;
+	padding: 0px;
+}
+
+.contact p,.gear p{
 	margin: 0px;
 	padding: 0px;
 }
-.italic{
-	font-style: italic;
+ul.rental{
+	margin: 5px 0px 15px;
+	padding: 0px;
+}
+
+.rental li{
+	font-family: korolev, sans-serif;
+	font-size: 15px;
+	font-style: normal;
+	font-weight: lighter;
+	margin: 0px 0px 0px 15px;
+	padding: 0px;
+	display: list-item;
+	float: none;
 }
 /*///////////////footer///////////////*/
 footer{
@@ -248,21 +279,15 @@ input:checked + .slider:before {
 }
 
 /*Media Queries*/
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1200px) {
 	.pics{
-		width: 40%;
+		width: 100%;
+		justify-content: center;
+		padding: 25px 0px;
 	}
 	.bio{
-		width: 50%;
-	}
-}
-
-@media screen and (max-width: 800px) {
-	.pics{
-		width: 50%;
-	}
-	.bio{
-		width: 50%;
+		width: 80%;
+		padding: 25px 15px 25px 15px;
 	}
 }
 
@@ -302,13 +327,8 @@ input:checked + .slider:before {
 	.about{
 		padding: 250px 0px 0px;
 	}
-	.pics{
-		width: 80%;
-	}
-
 	.bio{
-		width: 80%;
-		font-size: 1.15em;
+		font-size: 1.1em;
 	}
 	footer{
 		margin: 0px 5%;
