@@ -27,7 +27,7 @@ h3{
   text-align: center;
   margin: 0px;
 }
-.atlcreds, .btl{
+.atlcreds, .btl, .poster, .mySlides{
   font-size: 12px;
 	font-family: korolev,sans-serif;
 	font-weight: 300;
@@ -69,7 +69,7 @@ h3{
 /*///////////////logline///////////////*/
 
 .credits{
-	padding: 50px 10%;
+	padding: 25px 10%;
 }
 
 .logline{
@@ -78,12 +78,38 @@ h3{
 	font-weight: 400;
 	font-style: italic;
   letter-spacing: 2px;
-  margin: 5px;
+  margin: 0px;
   text-transform: uppercase;
   text-align: center;
-  padding: 10px 20%;
+  padding: 0px 20%;
   color: var(--primary-color);
 }
+
+/*///////////////vimeo///////////////*/
+.vimeo iframe{
+	position: relative;
+	width: 100
+	height: 100%;
+}
+
+/*///////////////poster///////////////*/
+.poster{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+	padding: 25px 0;
+}
+
+.poster img{
+	width: 55vh;
+}
+
+.poster p{
+	padding: 25px;
+}
+
 /*///////////////buttons///////////////*/
 .buttons, .prevnext{
   padding: 50px 0px;
@@ -98,34 +124,38 @@ h3{
   width: 100%;
   cursor: pointer;
 }
+
 .buttons div, .prevnext a{
   width: 33.33%;
 }
-.back, .prev{
+.back{
   text-align: left;
 }
-.projects, .close{
+.projects, .close, .next, .prev{
   text-align: center;
 }
-.forward, .next{
+.forward{
   text-align: right;
 }
 /*///////////////gallery///////////////*/
+.gallery{
+	padding: 25px 0px;
+}
+
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 3px;
 }
 
 /* Create four equal columns that sits next to each other */
 .column {
   flex: 25%;
   max-width: 25%;
-  padding: 0 1px;
+  padding: 0 2px;
 }
 
 .column img {
-  margin-top: 2px;
+  margin: 2px;
   vertical-align: middle;
   width: 100%;
 }
@@ -133,25 +163,26 @@ h3{
 	margin: 0px 0px 30px;
 }
 
-/* Responsive layout - makes a two column-layout instead of four columns */
+/* Responsive layout - makes a three column-layout instead of four columns */
 @media screen and (max-width: 1200px) {
-  .column {
-    flex: 33.33%;
-    max-width: 33.33%;
-  }
-}
-@media screen and (max-width: 900px) {
   .column {
     flex: 50%;
     max-width: 50%;
   }
+	.poster img{
+		width: 60%;
+	}
 }
+
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
     flex: 100%;
     max-width: 100%;
   }
+	.poster img{
+		width: 100%;
+	}
 }
 
 /*///////////////modal///////////////*/
@@ -173,29 +204,34 @@ h3{
   display: flex;
   flex-direction: column;
 	justify-content: center;
+	align-content: center;
 }
 /* Modal Content */
 .modal-content{
   position: relative;
 	display: flex;
+	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
+	height: 96vh;
 }
+.mySlides p{
+	text-align: center;
+}
+
 .mySlides img{
-	max-height: 80vh;
+	max-height: 85vh;
 	max-width: 100%;
 }
+
 /* Prev, Close, Next*/
 .prevnext{
   font-size: 17px;
   position: absolute;
-	bottom: 2%;
+	left: 0vw;
+	bottom: 2vh;
 	align-items: center;
 	padding: 0 5%;
-}
-.close{
-  font-size: 30px;
 }
 
 /* Hide the slides by default */
@@ -238,12 +274,12 @@ h3{
 .specs li, .spacer{
 	font-size: 0.9em;
 }
-.atl ol{
-  flex-direction: column;
+
+.vimeo{
+	position: static;
+	padding: 25px 0px;
 }
-.spacer{
-	transform: rotate(90deg);
-}
+
 .row, .column{
 	padding: 0px;
 }
@@ -271,6 +307,6 @@ h3{
 	font-size: 45px;
 }
 .modal{
-	padding: 0px;
+	padding: 10px;
 }
 }
