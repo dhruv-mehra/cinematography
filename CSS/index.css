@@ -79,6 +79,15 @@ h2{
 	margin: 0px;
 	color: var(--secondary-color);
 }
+h3{
+	font-size: 14px;
+	font-family: korolev, sans-serif;
+	font-weight: 600;
+	text-decoration: underline;
+	font-style: normal;
+	margin: 5px 0px;
+	color: var(--secondary-color);
+}
 /*///////////////nav///////////////*/
 ol{
 	padding: 0px;
@@ -188,7 +197,7 @@ ul.rental{
 
 .rental li{
 	font-family: korolev, sans-serif;
-	font-size: 15px;
+	font-size: 14px;
 	font-style: normal;
 	font-weight: lighter;
 	margin: 0px 0px 0px 15px;
