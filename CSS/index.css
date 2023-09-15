@@ -2,7 +2,7 @@
 @import url("index.css");
 /* CSS Document */
 :root {
-	 --primary-color: #EF8F6C;
+	 --primary-color: #A23210;
 	 --secondary-color: #28313E;
 	 --font-color: #050A0F;
 	 --bg-color: #FFFFFF;
@@ -67,10 +67,22 @@ a:hover{
 	margin: 0px 0px 5px;
 	color: var(--primary-color);
 }
-h1{
+#title p{
+	margin: 7px 0px;
+}
+
+h1, h2{
 	margin: 0px;
 }
+
 h2{
+	font-size: 13px;
+	font-family: 'Palanquin Dark', sans-serif;
+	font-style: normal;
+	font-weight: 500;
+}
+
+#cinematographer{
 	font-size: 11px;
 	font-family: korolev, sans-serif;
 	font-weight: 200;
@@ -92,10 +104,6 @@ ol{
 	padding: 0px;
 }
 li{
-	font-size: 13px;
-	font-family: 'Palanquin Dark', sans-serif;
-	font-style: normal;
-	font-weight: 500;
 	display: inline;
 	float: right;
 	margin: 0px 0px 0px 40px;
