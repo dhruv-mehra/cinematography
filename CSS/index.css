@@ -333,26 +333,41 @@ input:checked + .slider:before {
 		flex-direction: column;
 		align-items: center;
 		text-align: center;
-		padding: 15px 2%;
+		padding: 15px 0%;
 	}
+
 	#title{
-		font-size:2.5em;
+		font-size:2em;
 	}
 
 	#title p{
 		margin: 0px;
 	}
 
-	nav{
+	.nav{
+		width:auto;
+	}
+
+	.nav ol{
+		display:flex;
+		flex-direction: row;
+		align-content: center;
+		align-items: center;
+		text-align: center;
+	}
+
+	.nav li{
 		margin: 0px;
-		padding: 0px;
+		padding: 0px 15px;
+		display: inline;
+		font-size: 1em;
 	}
 
 	h1{
 		margin: 0px;
 	}
 
-	h2, .nav li, .worktitle{
+	h2, .worktitle{
 		font-size:1.2em;
 	}
 	ol{
@@ -364,7 +379,7 @@ input:checked + .slider:before {
 		float: none;
 	}
 	.works{
-		padding: 350px 0px 0px;
+		padding: 200px 0px 0px;
 	}
 	.work{
 		padding: 10px 0px;
@@ -374,7 +389,7 @@ input:checked + .slider:before {
 		height:100%;
 	}
 	.about{
-		padding: 250px 0px 0px;
+		padding: 175px 0px 0px;
 	}
 	.bio{
 		font-size: 1.1em;

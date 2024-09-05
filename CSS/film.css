@@ -183,6 +183,67 @@ h3{
 	.poster img{
 		width: 100%;
 	}
+	.atl{
+		padding: 200px 5% 15px;
+	}
+	h3{
+		font-size: 2.5em;
+	}
+	.atlcreds p{
+		font-size: 1.25em;
+	}
+	.atlcreds{
+			padding: 10px 0px;
+	}
+
+	ol.specs{
+		padding: 0px;
+		margin: 15px 0px;
+	}
+
+	.spacer{
+		font-size: 1em;
+	}
+
+	.specs li{
+		font-size: 0.7em;
+		text-align: center;
+	}
+
+	.vimeo{
+		position: static;
+		padding: 25px 0px;
+	}
+
+	.row, .column{
+		padding: 0px;
+	}
+	.column img{
+		margin: 1px 0px 0px;
+	}
+	.credits{
+		padding: 20px 10%;
+	}
+	.buttons{
+		padding: 50px 5% 35px;
+		font-size: 1.15em;
+	}
+	.logline{
+		padding: 0px 0px 10px;
+		font-size:1.15em;
+	}
+	.btl{
+		font-size: 1em;
+	}
+	.prev, .next{
+		font-size: 30px;
+	}
+	.close{
+		font-size: 45px;
+	}
+	.modal{
+		padding: 10px;
+	}
 }
 
 /*///////////////modal///////////////*/
@@ -255,58 +316,4 @@ img.hover-shadow {
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 var(--shadow-color);
   cursor: pointer;
-}
-
-/*media queries*/
-@media screen and (max-width: 600px) {
-.atl{
-	padding: 225px 5% 15px;
-}
-h3{
-	font-size: 3em;
-}
-.atlcreds p{
-	font-size: 1.25em;
-}
-.atlcreds{
-		padding: 10px 0px;
-}
-.specs li, .spacer{
-	font-size: 0.9em;
-}
-
-.vimeo{
-	position: static;
-	padding: 25px 0px;
-}
-
-.row, .column{
-	padding: 0px;
-}
-.column img{
-	margin: 1px 0px 0px;
-}
-.credits{
-	padding: 20px 10%;
-}
-.buttons{
-	padding: 50px 5% 35px;
-	font-size: 1.15em;
-}
-.logline{
-	padding: 0px 0px 10px;
-	font-size:1.15em;
-}
-.btl{
-	font-size: 1em;
-}
-.prev, .next{
-	font-size: 30px;
-}
-.close{
-	font-size: 45px;
-}
-.modal{
-	padding: 10px;
-}
 }
