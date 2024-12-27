@@ -104,6 +104,18 @@ h3{
 	height: 100%;
 }
 
+/*///////////////accolades///////////////*/
+.accolades{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	align-content: center;
+	justify-content: center;
+	padding: 0px;
+	margin: 0px;
+}
+
 /*///////////////poster///////////////*/
 .poster, #episodes{
 	display: flex;
@@ -124,14 +136,15 @@ h3{
 
 /*///////////////festivals///////////////*/
 .festivals{
-	padding: 25px 0;
+	padding: 25px;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	text-align: left;
 }
 
 .festivals ul{
-	padding:0 25%;
+	padding:0;
 	display: flex;
 	flex-direction: column;
 }
@@ -139,7 +152,6 @@ h3{
 .festivals li{
 	list-style-type: disc;
 	display: list-item;
-	text-align: left;
 	margin: 0 0 5px 0;
 	list-style-position: inside;
 }
@@ -150,7 +162,7 @@ h3{
 	font-style: normal;
 	font-weight: 700;
 	color: var(--primary-color);
-	text-align: center;
+	text-align: left;
 	text-transform: uppercase;
 }
 
@@ -220,9 +232,6 @@ li.award{
     flex: 50%;
     max-width: 50%;
   }
-	.poster img{
-		width: 60%;
-	}
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
@@ -294,6 +303,9 @@ li.award{
 	}
 	.modal{
 		padding: 10px;
+	}
+	.accolades{
+		flex-direction: column;
 	}
 }
 
