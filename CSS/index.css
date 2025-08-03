@@ -157,6 +157,7 @@ li{
 	font-weight: 500;
 	margin: 10px 0 0;
 	color: var(--secondary-color);
+	text-transform: uppercase;
 }
 
 .worktitle:hover{
