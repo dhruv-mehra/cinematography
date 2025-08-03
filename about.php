@@ -31,7 +31,7 @@ include('includes/header.php');
 					<li>Aputure MT Pro 1ft Tube</li>
 					<li>Wireless DMX Setup (Blackout + Cerise 1U)</li>
 				</ul>
-				<p class="italic">Itemized Gear List <a href="assets/documents/DM_GearList _04292023.pdf" class="bold">available here</a></p>
+				<p class="italic">Itemized Gear List <a href="assets/documents/Gear List 08032025.pdf" class="bold">available here</a></p>
 				<p class="italic">All gear available for rental. Inquire <a href="mailto:dhruvmehra8@gmail.com" title="Email" target="_top" class="bold">here</a>.</p>
 			</div>
 

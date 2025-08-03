@@ -9,13 +9,15 @@
 			if ($image !== '.' && $image !== '..' && $image !== '.DS_Store') {
             $images[] = $image;}
 			}
+		$imgcount = count($images);
+		if($imgcount > 16){$imgcount = 16;}
 	?>
 		<!-- Images used to open the lightbox -->
 		<div class="row">
 			<?php
-				for($col =0; $col < 4; $col+=1){ ?>
+				for($col=0; $col < 4; $col+=1){ ?>
 				<div class="column">
-					<?php for($img = $col; $img < 16; $img+=4){ ?>
+					<?php for($img = $col; $img < $imgcount; $img+=4){ ?>
 						<img src="<?php echo $imagePath; ?>/<?php echo $images[$img]; ?>" alt="<?php echo $work["name"]; ?>-<?php echo $images[$img];?>"  onclick="openModal();currentSlide(<?php echo $img+1 ?>)" class="hover-shadow">
 					<?php } ?>
 				</div><!-- column -->
