@@ -12,10 +12,6 @@ $navItems = array(
                 "title" => "Selected Works"
               ),
               array(
-                "slug"  => "reel.php",
-                "title" => "Reel"
-              ),
-              array(
                 "slug"  => "about.php",
                 "title" => "About"
               )
@@ -23,6 +19,45 @@ $navItems = array(
 
 //Works
 $works = array(
+  "google"         => array(
+                      "name"        => "Doodle for Google",
+                      "mediaType"   => "Commercial",
+                      "thumbnails"  => array(
+                                        "films/google/basketball.jpg",
+                                        "films/google/selfie.jpg",
+                                        "films/google/mic.jpg"
+                                        ),
+                      "atl"         => array(
+                                        "director" => "Steve Delahoyde",
+                                        "production company" => "Hometeam",
+                                        "supervising producers" => "Brandon Bloch, Lagan Sebert",
+                                        "producers" => "Nicholas Langholff, Ben Kruztik"
+                                        ),
+                      "btl"         => array(
+                                        "cinematographer" => "Dhruv Mehra",
+                                        "1st AC" => "David Edmonds",
+                                        "B-Cam Op" => "Brian Alberth",
+                                        "gaffer" => "Max Vanderwerf",
+                                        "key grip" => "Michael Paris Stone",
+                                        "grip" => "Aaron Zakowski",
+                                        "props stylist" => "Steve Roeder",
+                                        "art assistant" => "George Phillips",
+                                        "photographer" => "Pete Olsen",
+                                        "HMU" => "Kim Goodwin",
+                                        "sound" => "Sean Egan",
+                                        ),
+                      "language"    => "English",
+                      "duration"    => "5 Min",
+                      "aspectRatio" => "16:9",
+                      "color"       => "Color",
+                      "year"       => "2025",
+                      "embed"       => "https://www.youtube.com/embed/13ja86Hep3M?si=tvYXxAObqbdQ-nBG",
+                      "logline"     => "The Doodle for Google student art contest is BACK 🔥 And this year, NBA All-Star and philanthropist Giannis Antetokounmpo is one of the judges.",
+                      "imagePath"   => "films/google",
+                      "poster"      => "",
+                      "posterDesign"=> "",
+                      "festivals"   => ""
+                    ),
     "dawa"         => array(
                         "name"        => "Dawa",
                         "mediaType"   => "Short Film",

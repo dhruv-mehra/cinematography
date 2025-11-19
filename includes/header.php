@@ -39,7 +39,6 @@
 		<div class="nav">
 			<ol>
 					<li><h2><a href="about.php">ABOUT</a></h2></li>
-	  			<li><h2><a href="reel.php">REEL</a></h2></li>
 			</ol>
 		</div>
 	</header>
