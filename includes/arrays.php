@@ -106,7 +106,6 @@ $works = array(
                                           "writer/director" => "Aisha Hamid",
                                           "producers" => "Matt Browne, Kat Williams",
                                           "starring" => "Zinnia Ranji, Jasraj Singh"
-
                                           ),
                         "btl"         => array(
                                           "cinematographer" => "Dhruv Mehra",
@@ -117,9 +116,12 @@ $works = array(
                                           "production designer" => "Aisha Hamid, Shazeb Shah",
                                           "hair & makeup" => "Suzan Georges",
                                           "production sound mixer" => "Samuel Ruesink",
+                                          "boom operator" => "Frank Garland",
+                                          "production assistant" => "Nicole Molgado",
                                           "editor" => "Usama Lali",
                                           "sound designer" => "Bailey Oliver",
                                           "composer" => "Analia Lentini",
+                                          "foley" => "Aisha Hamid, Maya Reter",
                                           "colorist" => "Dhruv Mehra"
                                           ),
                         "genre"       => "Drama",
@@ -131,11 +133,16 @@ $works = array(
                         "embed"       => "https://player.vimeo.com/video/977155402?h=85b3af2642&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479",
                         "logline"     => "When a grieving daughter reconnects with her widowed father over a ponytail, she discovers a life altering truth about him.",
                         "imagePath"   => "films/pontytail",
-                        "poster"      => "",
-                        "posterDesign"=> "",
+                        "poster"      => "films/ponytail/PonytailPoster.png",
+                        "posterDesign"=> "Aisha Hamid",
                         "festivals"   => array(
-                                          "Cannes Indie Shorts Awards 2024" => array(""),
-                                          "Venezia Shorts 2024" => array("")
+                                          "Cannes Indie Shorts Awards 2024" => array("Semifinalist"),
+                                          "Venezia Shorts 2024" => array("Semifinalist"),
+                                          "New York Indie Shorts Awards 2025" => array("NY New Waves Showcase 2025 Winner"),
+                                          "Reel Pakistan Short Film Competition 2025" => array("Best Technical Achievement"),
+                                          "South Asian Film Festival of Montreal 2025" => array("Official Selection"),
+                                          "Jaipur International Film Festival 2025" => array("Official Selection"),
+                                          "Ely Film Festival 2025" => array("Official Selection")
                                         )
                       ),
     "converting"         => array(
